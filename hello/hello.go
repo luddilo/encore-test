@@ -14,6 +14,6 @@ type WorldResponse struct {
 //
 // encore:api public
 func World(ctx context.Context) (*WorldResponse, error) {
-	msg := fmt.Sprintf("Hello, World!")
+	msg := fmt.Sprintf("Hello, Simsim!")
 	return &WorldResponse{Message: msg}, nil
 }
