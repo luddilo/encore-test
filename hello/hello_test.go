@@ -10,7 +10,7 @@ func TestWorld(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	want := "Hello, World!"
+	want := "Hello, Simsimsim!"
 	if got := resp.Message; got != want {
 		t.Errorf("got %q, want %q", got, want)
 	}
